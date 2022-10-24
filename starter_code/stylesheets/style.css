@@ -386,7 +386,14 @@ footer {
     flex-direction: column;
     width: 50%;
   }
+  #headline-buttons > p {
+    align-self: flex-start;
+    margin-left: 38px;
+  }
 
+  #email-button {
+    margin-right: 12px;
+  }
   #hero-pic {
     display: flex;
     flex-direction: column;
@@ -440,7 +447,8 @@ footer {
     align-self: center;
   }
 
-  #teams > h3 {
+  #teams > h3,
+  #teams > p {
     align-self: center;
   }
 
@@ -469,5 +477,10 @@ footer {
   }
   #try {
     margin-right: 12px;
+    width: 256px;
+  }
+
+  #talk {
+    width: 256px;
   }
 }
